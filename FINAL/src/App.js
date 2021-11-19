@@ -9,9 +9,9 @@ import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import CreateStudent from "./components/create-employee.component";
-import EditStudent from "./components/edit-employee.component";
-import StudentList from "./components/employee-list.component";
+import CreateEmployee from "./components/create-employee.component";
+import EditEmployee from "./components/edit-employee.component";
+import EmployeeList from "./components/employee-list.component";
 
 function App() {
   return (<Router>

@@ -8,7 +8,10 @@ let employeeSchema = new Schema({
   email: {
     type: String
   },
-  phonenumber: {
+  phoneNumber: {
+    type: String
+  },
+  birthday: {
     type: String
   },
   rollno: {
